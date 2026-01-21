@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --color-evergreen: #283326;
+    --color-ivory: #F8EDD2;
+    --color-crimson: #8C1C13;
+    --font-league-gothic: 'League Gothic', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+}
+
+@layer utilities {
+    .font-league-gothic {
+        font-family: var(--font-league-gothic);
+    }
+    .font-inter {
+        font-family: var(--font-inter);
+    }
+    @keyframes marquee {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    .marquee {
+        animation: marquee 30s linear infinite;
+    }
+}
