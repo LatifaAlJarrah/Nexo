@@ -24,18 +24,6 @@
     .font-poppins {
         font-family: var(--font-poppins);
     }
-    /* Marquee */
-    @keyframes marquee {
-        0% {
-            transform: translateX(0%);
-        }
-        100% {
-            transform: translateX(-100%);
-        }
-    }
-    .marquee {
-        animation: marquee 30s linear infinite;
-    }
 
     /* Scroll Up */
     @keyframes scrollUp {
@@ -65,5 +53,4 @@
     .animate-scroll-left {
     animation: scrollLeft 30s linear infinite;
     }
-
 }
