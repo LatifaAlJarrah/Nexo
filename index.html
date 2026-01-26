@@ -131,21 +131,21 @@
         <section
             class="relative bg-linear-to-r from-ivory/60 to-[#1B4629]/60 opacity-[52px] pb-20 md:pb-40 min-h-fit 3xl:max-h-[60vh] flex pt-36 overflow-hidden">
             <!-- Left Background Image -->
-            <div class="absolute left-0 top-0 w-2/3 h-full">
+            <div class="absolute left-0 top-0 w-full md:w-2/3 h-full">
                 <img src="./assets/images/bg-left.png" alt="Barber working"
                     class="w-full h-full object-cover opacity-90">
             </div>
 
             <!-- Right Background Pattern -->
-            <div class="absolute right-0 top-0 w-1/3 h-full">
+            <div class="absolute right-0 top-0 w-1/3 h-full hidden lg:block">
                 <img src="./assets/images/right-side-image.png" alt="Pattern"
                     class="w-full h-full object-cover opacity-20">
             </div>
 
             <div class="container mx-auto px-4 md:px-8 lg:px-12 lg:pl-18 relative z-10 pb-20 md:pb-32">
                 <!-- Content -->
-                <div class="pb-20 md:pb-32">
-                    <div class="max-w-xl">
+                <div class="pb-10 md:pb-32">
+                    <div class="max-w-xl mx-auto lg:mx-0 text-center lg:text-left flex flex-col items-center lg:items-start">
                         <h1 class="font-league-gothic text-6xl md:text-7xl text-evergreen leading-tight mb-6">
                             MIAMI'S BEST LUXURY BARBERSHOP EXPERIENCE
                         </h1>
@@ -155,7 +155,7 @@
                         </p>
                 
                         <button
-                            class="book-now-btn bg-evergreen text-ivory font-league-gothic text-xl tracking-wider px-6 py-3 flex items-center gap-3 hover:bg-opacity-90 transition-all">
+                            class="book-now-btn bg-evergreen cursor-pointer text-ivory font-league-gothic text-xl tracking-wider px-6 py-3 flex items-center justify-center lg:justify-start gap-3 hover:bg-opacity-90 transition-all">
                             BOOK NOW
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -235,20 +235,20 @@
                             <!-- Center Column - Nexo Logo -->
                             <!-- <img src="./assets/images/about-nexo.png" -->
                             <img src="./assets/images/NexoAbout.svg"
-                                class="col-span-1 lg:col-span-8 w-95 mt-20 md:mt-4 mx-auto" />
+                                class="col-span-1 lg:col-span-8 w-95 mt-40 md:mt-4 mx-auto" />
                             <!-- <img src="./assets/images/about-nexo.png"
                                 class="col-span-1 lg:col-span-8 w-full mt-20 md:mt-0" /> -->
 
 
                             <!-- Right Column - Text Content -->
-                            <div class="text-ivory col-span-1 lg:col-span-2 mt-20">
+                            <div class="text-ivory col-span-1 lg:col-span-2 mt-20 text-center lg:text-left">
                                 <p class="font-league-gothic text-xl font-normal leading-relaxed uppercase">
                                     NEXO Barbershop is a modern grooming destination in Chicago, built for men who value
                                     style and confidence. From sharp cuts to detailed grooming, every service is crafted
                                     to elevate your look.
                                 </p>
                                 <button
-                                    class="book-now-btn mt-6 bg-ivory text-evergreen font-league-gothic text-xl tracking-wider px-6 py-2 flex items-center gap-2 hover:bg-white transition-colors">
+                                    class="book-now-btn mt-6 bg-ivory text-evergreen font-league-gothic text-xl tracking-wider px-6 py-2 flex items-center gap-2 hover:bg-white transition-colors cursor-pointer mx-auto lg:mx-0">
                                     BOOK NOW
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -325,7 +325,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div>
+                        <div class="hidden lg:block">
                             <img src="./assets/images/Large-about-x.svg" alt="X Logo">
                             <!-- <img src="./assets/images/Large-X-about.png" alt="X Logo"> -->
                         </div>
@@ -726,7 +726,7 @@
                     </div>
 
                     <!-- Center - NEXO Logo -->
-                    <div class="text-end flex items-end justify-end mt-auto">
+                    <div class="text-end flex items-end justify-end mt-0 md:mt-auto mb-6 md:mb-0">
                         <img src="./assets/images/nexo-standard.svg" alt="X Scissors Logo"
                             class="w-96 h-48 mx-auto">
                         <!-- <img src="./assets/images/nexo-higher-standard.svg" alt="X Scissors Logo"
@@ -795,7 +795,7 @@
         <div class="max-w-7xl mx-auto relative z-10">
             <div class="grid grid-cols-1 md:grid-cols-8 gap-8 mb-8">
                 <!-- Left Section - Branding -->
-                <div class="space-y-4 col-span-4">
+                <div class="space-y-4 col-span-1 md:col-span-4">
                     <a href="./index.html">
                         <img src="./assets/images/logoFooter.svg" alt="NEXO Log">
                         <!-- <img src="./assets/images/logo.svg" alt="NEXO Log"> -->
