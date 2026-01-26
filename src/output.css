@@ -324,6 +324,15 @@
   .my-auto {
     margin-block: auto;
   }
+  .-mt-0 {
+    margin-top: calc(var(--spacing) * -0);
+  }
+  .-mt-5 {
+    margin-top: calc(var(--spacing) * -5);
+  }
+  .-mt-7 {
+    margin-top: calc(var(--spacing) * -7);
+  }
   .-mt-8 {
     margin-top: calc(var(--spacing) * -8);
   }
@@ -341,6 +350,15 @@
   }
   .-mt-16 {
     margin-top: calc(var(--spacing) * -16);
+  }
+  .-mt-\[29px\] {
+    margin-top: calc(29px * -1);
+  }
+  .-mt-\[30px\] {
+    margin-top: calc(30px * -1);
+  }
+  .-mt-\[32px\] {
+    margin-top: calc(32px * -1);
   }
   .-mt-\[66\] {
     margin-top: calc(66 * -1);
@@ -1281,6 +1299,16 @@
   .\33 xl\:max-h-\[60vh\] {
     @media (width >= 1920px) {
       max-height: 60vh;
+    }
+  }
+  .sm\:-mt-8 {
+    @media (width >= 40rem) {
+      margin-top: calc(var(--spacing) * -8);
+    }
+  }
+  .sm\:-mt-\[66px\] {
+    @media (width >= 40rem) {
+      margin-top: calc(66px * -1);
     }
   }
   .sm\:grid-cols-2 {
